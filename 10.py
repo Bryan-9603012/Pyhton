@@ -26,3 +26,14 @@
 #     a+=i
 #     print(a)
 
+import sys
+
+i=0
+a=0
+for i in range(1,101):
+    if i%2==0:
+        a+=i
+        sys.stdout.write(str(i))  # 覆蓋同一行
+        sys.stdout.flush()
+print()
+print(a)
