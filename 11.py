@@ -38,3 +38,47 @@
 # a=int(a)
 # month = a
 # print(check_season(a))
+
+#1-6
+# def calculate_slope(x1, y1, x2, y2):
+#     if x2 - x1 == 0:
+#         return "斜率不存在"
+#     else:
+#         slope = (y2 - y1) / (x2 - x1)
+#         return slope
+
+#1-7
+# def solve_quadratic_eqn(a,b,c,x):
+#     result = a * x**2 + b * x + c
+#     return result
+
+#1-8
+
+# def print_list(lst):
+#     for item in lst:
+#         print(item)
+
+#1-9
+# def reverse_list(list1,list2):
+#     return(list1[::-1],list2[::-1])
+# reverse_list3=[1,2,3,4,5]
+# reverse_list4=["A","B","C"]
+# reverse3,severse4=reverse_list(reverse_list3,reverse_list4)
+# print(reverse3)
+# print(severse4)
+
+#1-10
+# def capitalize_list_items(items):
+#     return [item.capitalize() for item in items]
+# fruit=["apple","banana","mango"]
+# output=capitalize_list_items(fruit)
+# print(output)
+
+#1-11
+def add_item_to_list(lst,item):
+    lst.append(item)
+    return lst
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print(add_item_to_list(food_staff, 'Meat'))     # ['Potato', 'Tomato', 'Mango', 'Milk','Meat']
+numbers = [2, 3, 7, 9]
+print(add_item_to_list(numbers, 5))
