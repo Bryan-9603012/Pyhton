@@ -158,3 +158,35 @@
 # print("標準差為:",rng)
 
 #3-1
+#def is_prime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#     return True
+
+# a = int(input("請輸入一個數:"))
+
+# a=is_prime(a)
+# print(a)
+
+#3-2
+# def all_unique(lst):
+#     return len(lst) == len(set(lst))
+# print(all_unique([1,2,3,4,5]))
+# print(all_unique([1,2,3,5,5]))
+
+#3-3
+# def all_same_type(lst):
+#     return all(type(x) == type(lst[0]) for x in lst)
+# print(all_same_type([1,2,3]))
+# print(all_same_type([1,2,"dock"]))
+
+#3-4
+# import keyword
+# def is_valid_variable(name):
+#     return (name.isidentifier() and not keyword.iskeyword(name))
+# print(is_valid_variable('a'))
+# print(is_valid_variable('1nhhuhrk'))
+# print(is_valid_variable('for'))
