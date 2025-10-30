@@ -75,10 +75,48 @@
 # print(output)
 
 #1-11
-def add_item_to_list(lst,item):
-    lst.append(item)
-    return lst
-food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
-print(add_item_to_list(food_staff, 'Meat'))     # ['Potato', 'Tomato', 'Mango', 'Milk','Meat']
-numbers = [2, 3, 7, 9]
-print(add_item_to_list(numbers, 5))
+# def add_item_to_list(lst,item):
+#     lst.append(item)
+#     return lst
+# food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+# print(add_item_to_list(food_staff, 'Meat'))     # ['Potato', 'Tomato', 'Mango', 'Milk','Meat']
+# numbers = [2, 3, 7, 9]
+# print(add_item_to_list(numbers, 5))
+# 1-14
+# def sum_of_odds(a):
+#     total =0
+#     for i in range(a+1):
+#         if i%2==0:
+#             total+=i
+#             i+=1
+#     return total
+# print(sum_of_odds(100))
+#
+# 1-15
+# def sum_of_odds(a):
+#     total =0
+#     for i in range(a):
+#         if i%2!=0:
+#             total+=i
+#             i+=1
+#     return total
+# print(sum_of_odds(100))
+#
+#2-1
+# def evens_and_odds(a):
+#     total = 0
+#     for i in range(a):
+#         if i%2==0:
+#             total+=1
+#             i+=1
+#     return total
+# print(evens_and_odds(100))
+#2-2
+def evens_and_odds(a):
+    total = 0
+    for i in range(a):
+        if i%2!=0:
+            total+=1
+            i+=1
+    return total
+print(evens_and_odds(100))
