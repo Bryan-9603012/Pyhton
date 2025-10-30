@@ -2,6 +2,9 @@
 # for i in range(11):
 #     print(i)
 
+# for i in range(8,1,-1):
+#     print("#"*i)
+
 # while迴圈
 # i=0
 # while i < 11:
@@ -11,7 +14,7 @@
 # for i in range(1,8):
 #     print("#"*i)
 
-# for i in range(1,8):
+# for i in range(8,1):
 #     print("#"*8)
 
 # for i in range(11):
