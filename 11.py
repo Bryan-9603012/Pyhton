@@ -112,11 +112,20 @@
 #     return total
 # print(evens_and_odds(100))
 #2-2
-def evens_and_odds(a):
-    total = 0
-    for i in range(a):
-        if i%2!=0:
-            total+=1
-            i+=1
-    return total
-print(evens_and_odds(100))
+# def evens_and_odds(a):
+#     total = 0
+#     for i in range(a):
+#         if i%2!=0:
+#             total+=1
+#             i+=1
+#     return total
+# print(evens_and_odds(100))
+#2-3
+def factorial(a):
+    b =1
+    while a>1:
+        b = b*a
+        a-=1
+    return b
+print(factorial(5))
+#2-4
