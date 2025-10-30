@@ -132,5 +132,29 @@
 # print(is_empty([]))
 
 #2-4
+# import statistics
+# def number(a,b,c,d):
+#     score=[a,b,c,d]
+#     average = statistics.mean(score)
+#     median = statistics.median(score)
+#     Mode = statistics.mode(score)
+#     variance = statistics.variance(score)
+#     std = statistics.stdev(score)
+#     rng = max(score)-min(score)
+#     return average, median, Mode, variance, std, rng
 
+# a=int(input("請輸入數字a:"))
+# b=int(input("請輸入數字b:"))
+# c=int(input("請輸入數字c:"))
+# d=int(input("請輸入數字d:"))
 
+# average, median, Mode, variance, std, rng = number(a,b,c,d)
+
+# print("平均數為:",average)
+# print("中位數為:",median)
+# print("眾數為:",Mode)
+# print("範圍為:",variance)
+# print("變異數為:",std)
+# print("標準差為:",rng)
+
+#3-1
