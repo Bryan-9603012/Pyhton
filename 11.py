@@ -103,29 +103,34 @@
 # print(sum_of_odds(100))
 #
 #2-1
+# a= 100
 # def evens_and_odds(a):
-#     total = 0
-#     for i in range(a):
+#     total_odd = 0
+#     total_even = 0
+#     for i in range(a+1):
 #         if i%2==0:
-#             total+=1
-#             i+=1
-#     return total
-# print(evens_and_odds(100))
+#             total_even+=1
+#         else:
+#             total_odd+=1
+#     return total_even,total_odd
+# total_evens,total_odds = evens_and_odds(a)
+# print("The number of odds are",total_evens,".")
+# print("The number of evens are",total_odds,".")
+#
 #2-2
-# def evens_and_odds(a):
-#     total = 0
-#     for i in range(a):
-#         if i%2!=0:
-#             total+=1
-#             i+=1
-#     return total
-# print(evens_and_odds(100))
+# def factorial(a):
+#     b =1
+#     while a>1:
+#         b = b*a
+#         a-=1
+#     return b
+# print(factorial(5))
+#
 #2-3
-def factorial(a):
-    b =1
-    while a>1:
-        b = b*a
-        a-=1
-    return b
-print(factorial(5))
+# def is_empty(a):
+#     return not a
+# print(is_empty([]))
+
 #2-4
+
+
