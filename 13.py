@@ -22,3 +22,25 @@
 # nested_list = [[[1, 2, 3]], [[4, 5, 6]], [[7, 8, 9]]]
 # flat_list = flatten(nested_list)
 # print("扁平化後的列表:", flat_list)
+
+#1-3
+#1-4
+# def calculate_bmi(countries):
+#     flat_countries = []
+#     for item in countries:
+
+#         if isinstance(item,list):
+#             flat_countries.extend(calculate_bmi(item))
+#         else:
+#             flat_countries.append(item)
+#     return flat_countries
+# countries =[[('Finland','Helsinki')],[('Sweden','Stockholm')],[('Norway','Oslo')]]
+# flat_countries = calculate_bmi(countries)
+# print("扁平化後的國家列表:", flat_countries)
+#1-5
+countries =[[('Finland','Helsinki')],[('Sweden','Stockholm')],[('Norway','Oslo')]]
+result =[]
+for item in countries:
+    for country,capital in item:
+        result.append(f"Country: {country}, Capital: {capital}")
+print(result)
