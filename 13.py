@@ -38,9 +38,18 @@
 # flat_countries = calculate_bmi(countries)
 # print("扁平化後的國家列表:", flat_countries)
 #1-5
-countries =[[('Finland','Helsinki')],[('Sweden','Stockholm')],[('Norway','Oslo')]]
-result =[]
-for item in countries:
-    for country,capital in item:
-        result.append(f"Country: {country}, Capital: {capital}")
-print(result)
+# countries =[[('Finland','Helsinki')],[('Sweden','Stockholm')],[('Norway','Oslo')]]
+# result =[]
+# for item in countries:
+#     for country,capital in item:
+#         result.append(f"Country: {country}, Capital: {capital}")
+# print(result)
+#1-6
+# name =[['Asabeneh','Yetayeh'],['David','Smith'],['Donald','Trump'],['Bill','Gates']]
+# outpt_string =[', '.join(full_name) for full_name in name]
+# print(outpt_string)
+#1-7
+# get_line_params =lambda x1, y1, x2, y2: ((y2 - y1) / (x2 - x1), y1 - ((y2 - y1) / (x2 - x1)) * x1)
+# slope, intercept = get_line_params(2, 3, 5, 11)
+# print("Slope:", round(slope,2))
+# print("Intercept:", round(intercept,2))
