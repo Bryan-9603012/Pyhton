@@ -123,3 +123,35 @@
 
 # print(get_first_ten_countries())
 #3-1
+# from countries_data import countries
+# from operator import itemgetter
+# from collections import defaultdict
+
+# def sort_by_name(countries):
+#     return sorted(countries, key=lambda c: c.get("name", "").lower())
+
+# def sort_by_capital(countries):
+#     return sorted(countries, key=lambda c: (c.get("capital") is None, str(c.get("capital", "")).lower()))
+
+# def sort_by_population(countries):
+#     return sorted(countries, key=itemgetter("population"), reverse=True)
+
+# def top_languages_by_population(countries, top_n=10):
+#     lang_pop = defaultdict(int)
+#     for c in countries:
+#         pop = int(c.get("population", 0))
+#         for lang in c.get("languages", []):
+#             lang_pop[str(lang).strip()] += pop
+#     return sorted(lang_pop.items(), key=lambda x: x[1], reverse=True)[:top_n]
+
+# def top_countries_by_population(countries, top_n=10):
+#     ranked = sort_by_population(countries)
+#     return [(c.get("name", ""), int(c.get("population", 0))) for c in ranked[:top_n]]
+
+# if __name__ == "__main__":
+#     print([c["name"] for c in sort_by_name(countries)[:5]])
+#     print([c["name"] for c in sort_by_capital(countries)[:5]])
+#     print([(c["name"], c["population"]) for c in sort_by_population(countries)[:5]])
+#     print(top_languages_by_population(countries, 10))
+#     print(top_countries_by_population(countries, 10))
+
