@@ -41,10 +41,10 @@
 # print("距離新年還有:", time_left_2.days, "天", time_left_2.seconds//3600, "小時", (time_left_2.seconds//60)%60, "分鐘", time_left_2.seconds%60, "秒")
 
 #1-5
-from datetime import datetime, timedelta,timezone
-now = datetime.now(timezone.utc)
+# from datetime import datetime, timedelta,timezone
+# now = datetime.now(timezone.utc)
 
-offset = timedelta(days=1,hours=2,minutes=3,seconds=4,milliseconds=5)
-new_time = now- offset
-delta = now-datetime(1970,1,1,tzinfo=timezone.utc)
-print("從1970年1月1日到現在的總秒數:", delta.total_seconds())
+# offset = timedelta(days=1,hours=2,minutes=3,seconds=4,milliseconds=5)
+# new_time = now- offset
+# delta = now-datetime(1970,1,1,tzinfo=timezone.utc)
+# print("從1970年1月1日到現在的總秒數:", delta.total_seconds())
