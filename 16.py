@@ -21,3 +21,9 @@
 # print("time_one:",time_one,"\n")
 # time_two = now.strftime("%Y-%d-%m %H:%M:%S")
 # print("time_two:",time_two,"\n")
+#1-3
+from datetime import datetime 
+date_string = "2019-12-05"
+print("date_string:",date_string,"\n")
+date_object = datetime.strptime(date_string,"%Y-%m-%d")
+print("date_object:",date_object,"\n")
