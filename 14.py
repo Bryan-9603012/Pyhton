@@ -122,6 +122,7 @@
 #     return data[16:4:-1]
 
 # print(get_first_ten_countries())
+
 #3-1
 # from countries_data import countries
 # from operator import itemgetter
