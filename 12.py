@@ -1,5 +1,5 @@
-from mymdule import generate_full_name as full,sum_two_nums as total ,person as p,gravity as g
-print(fullname('Asabneh','Yetayeh'))
+from mymodule import generate_full_name as full,sum_two_nums as total ,person as p,gravity as g
+print(full('Asabneh','Yetayeh'))
 print(total(1,9))
 mass = 100
 weight = g * mass
